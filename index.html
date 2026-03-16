@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TY VISAL- Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kablammo&family=Russo+One&family=Freckle+Face&family=Eagle+Lake&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="contener">
+      <nav class="navbar">
+        <h1>Profile</h1>
+        <button id="lightToggle" class="light-btn">
+          <i class="fa-solid fa-lightbulb"></i>
+        </button>
+
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul id="navMenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="main-content">
+        <div class="content">
+          <h1>Hello! I'm Visal</h1>
+          <h4 class="nn"><span class="text"></span></h4>
+          <p class="pp-ppp">
+            A passionate Computer Science student from Cambodia, constantly
+            improving my skills in programming (C#, Java, HTML, CSS, ASP.NET)
+            and English. I love learning step-by-step and asking thoughtful
+            questions. Outside of coding, I enjoy playing football as a defender
+            and spending time with friends......
+          </p>
+          <div class="btn">
+            <a href="#" aria-label="GitHub"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://www.facebook.com/SALVIzzzzzzzz"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://www.tiktok.com/@mskzisaks" aria-label="TikTok"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+          </div>
+        </div>
+        <div class="main-img">
+          <img class="img" src="nyan-cat.avif" alt="Visal's profile picture" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-img">
+        <img class="img2" src="nyan-cat.avif" alt="About Visal" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h4>I'm Visal (TVS)</h4>
+        <p>
+          I am a dedicated Computer Science student with a passion for
+          technology and innovation. My journey in programming has been filled
+          with exciting challenges and continuous learning. I specialize in web
+          development, software engineering, and mobile app development. Through
+          my studies, I've gained proficiency in multiple programming languages
+          including C++, C#, Java, HTML, CSS, and SQL Server. I believe in
+          writing clean, efficient code and creating user-friendly applications
+          that solve real-world problems. My goal is to become a well-rounded
+          developer who can contribute meaningfully to the tech industry.
+        </p>
+      </div>
+    </section>
+
+    <section id="skill">
+      <div class="container3">
+        <div class="skills-section">
+          <div class="section-title">Languages</div>
+          <div class="skill-item">
+            <div class="skill-icon icon-backend">💻</div>
+            <div class="skill-name">C++</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon icon-html">📄</div>
+            <div class="skill-name">HTML</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon icon-c">💎</div>
+            <div class="skill-name">CSS</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon icon-python">🐍</div>
+            <div class="skill-name">C#</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon icon-music">☕</div>
+            <div class="skill-name">Java</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon icon-ai">🗄️</div>
+            <div class="skill-name">SQL Server</div>
+          </div>
+        </div>
+
+        <div class="play-button" onclick="playAnimation()">
+          <div class="play-icon"></div>
+        </div>
+
+        <div class="skills-section">
+          <div class="section-title">Skills</div>
+          <div class="skill-item">
+            <div class="skill-icon icon-design">🌐</div>
+            <div class="skill-name">Web Developer</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon icon-arcade">📱</div>
+            <div class="skill-name">Mobile Developer</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon icon-music">🎨</div>
+            <div class="skill-name">Frontend Developer</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon icon-ai">⚙️</div>
+            <div class="skill-name">Backend Developer</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon icon-backend">💼</div>
+            <div class="skill-name">Software Developer</div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon icon-arcade">🔒</div>
+            <div class="skill-name">Cyber Security</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container4">
+        <div class="header4">
+          <h1>
+            <span class="highlight">ANIMATED & RESPONSIVE</span> CONTACT PAGE
+          </h1>
+          <p>
+            Get in touch with me for collaborations, projects, or just to say
+            hello!
+          </p>
+        </div>
+
+        <div class="content4">
+          <div class="contact-info">
+            <div class="info-item">
+              <div class="icon-box">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-text">
+                <h3>Address</h3>
+                <p>Phnom Penh, Cambodia</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="icon-box">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="info-text">
+                <h3>Phone</h3>
+                <p>+855 81577181</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="icon-box">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info-text">
+                <h3>Email</h3>
+                <p>tyvisal45@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="social-section">
+              <div class="social-title">
+                <div class="social-line"></div>
+                <h3>Connect with me</h3>
+              </div>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/SALVIzzzzzzzz"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+
+            <div class="css-badge">
+              <div class="badge-content">
+                <div class="badge-text">PORTFOLIO</div>
+                <div class="hand-icon">☝️</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="form-container">
+              <h2 class="form-title">Send Message</h2>
+              <form id="contactForm">
+                <div class="form-group">
+                  <input type="text" placeholder="Full Name" required />
+                </div>
+                <div class="form-group">
+                  <input type="email" placeholder="Email" required />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    placeholder="Type your Message..."
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
